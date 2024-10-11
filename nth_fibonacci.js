@@ -5,6 +5,8 @@ function recurssiveFibonacci(n) {
     return recurssiveFibonacci(n-1) + recurssiveFibonacci (n - 2);
 }
 
+console.log(recurssiveFibonacci(7));
+console.log(recurssiveFibonacci(6));
 console.log(recurssiveFibonacci(5));
 console.log(recurssiveFibonacci(4));
 console.log(recurssiveFibonacci(1))
